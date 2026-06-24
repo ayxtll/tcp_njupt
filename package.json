@@ -1,0 +1,20 @@
+{
+  "name": "tcp-socket-message-board",
+  "version": "1.0.0",
+  "description": "A TCP/IP socket programming experiment: raw TCP server serving a small classroom message board web app.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "client:list": "node client.js list",
+    "client:post": "node client.js post 学生 \"这是一条来自 Socket 客户端的留言\""
+  },
+  "keywords": [
+    "tcp",
+    "socket",
+    "web-server",
+    "experiment"
+  ],
+  "author": "",
+  "license": "MIT"
+}
